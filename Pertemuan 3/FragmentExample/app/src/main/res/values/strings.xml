@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FragmentExample</string>
+    <string name="Title">Cry of the Shadow</string>
+    <string name="article1">Many a Beatle fanatic started down the outtake         road,         like I did, with a first listen to this song. Originally titled “Beatle Bop” and recorded in a single session that yielded four songs (the other three featured Tony Sheridan with the Beatles as a backing band), “Cry for a Shadow” is an instrumental written by Lennon and Harrison, which makes it unique to this day. John Lennon plays rhythm guitar, George Harrison plays lead guitar, Paul McCartney plays bass, and Pete Best plays drums. The sessions were produced by Bert Kaempfert in Hamburg, Germany, during the Beatles’ second visit from April through July of 1961 to play in the Reeperbahn-section clubs.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="question_article">LIKE THE ARTICLE?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="yes_message">ARTICLE: Like</string>
+    <string name="no_message">ARTICLE: Thanks</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+</resources>
