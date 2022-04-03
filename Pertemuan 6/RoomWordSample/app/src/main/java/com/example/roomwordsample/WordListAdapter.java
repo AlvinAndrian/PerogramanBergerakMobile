@@ -1,6 +1,7 @@
 package com.example.roomwordsample;
 
 import android.view.ViewGroup;
+import android.widget.ListAdapter;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.DiffUtil;
