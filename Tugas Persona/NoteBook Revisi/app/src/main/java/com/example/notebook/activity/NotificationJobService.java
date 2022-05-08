@@ -83,7 +83,7 @@ public class NotificationJobService extends JobService {
         new Thread(new Runnable() {
             @Override
             public void run() {
-                for (int i = 0; i < 5 ; i++) {
+                for (int i = 0; i < (24 * 3600) ; i++) {
                     Log.d(TAG, "run: " + i);
                     try {
                         Thread.sleep(1000);
