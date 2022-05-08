@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/bottom_sheet"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="7dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/delete_indictor_shape"
+        />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Are you sure want to delete\nthis note ?"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/product_sans_bold"
+        android:textColor="@color/black"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/delete_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No"
+        android:gravity="center"
+        android:background="@drawable/no_delete"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="12dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/product_sans_regular"
+        android:textSize="18sp"
+        android:paddingBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/delete_yes"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:text="Yes"
+        android:fontFamily="@font/product_sans_bold"
+        android:textSize="18sp"
+        android:layout_marginBottom="12dp"
+        android:gravity="center"
+        android:background="@drawable/yes_delete"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
+
+
+
+</LinearLayout>

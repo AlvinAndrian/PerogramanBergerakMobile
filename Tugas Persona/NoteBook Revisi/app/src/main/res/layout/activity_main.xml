@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/filter"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/filter"/>
+
+        <TextView
+            android:id="@+id/nofilter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:fontFamily="@font/product_sans_regular"
+            android:textColor="@color/black"
+            android:text="No Filter"
+            android:background="@drawable/filter_un_shape"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/hightolow"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:fontFamily="@font/product_sans_regular"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:background="@drawable/filter_un_shape"
+            android:text="High to low"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/lowtohigh"
+            android:fontFamily="@font/product_sans_regular"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:background="@drawable/filter_un_shape"
+            android:text="Low to high"
+            android:layout_gravity="center_vertical"/>
+
+
+    </LinearLayout>
+    
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/filter"
+        android:id="@+id/notesRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="26dp"
+        android:src="@drawable/ic_baseline_add_24"
+        android:layout_marginRight="26dp"
+        android:id="@+id/newNotesBtn"
+        android:backgroundTint="@color/orange"/>
+
+</RelativeLayout>
