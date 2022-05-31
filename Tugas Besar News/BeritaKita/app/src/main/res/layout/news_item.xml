@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_marginBottom="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="10dp"
+    android:elevation="5dp"
+    app:cardCornerRadius="15dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/imageTodayBerita"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:src="@drawable/pesawat" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/judulTodayBerita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Judul Berita"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:fontFamily="@font/intersemibold"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/namaPublisherTodayBerita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Publisher"
+            android:fontFamily="@font/interlight"
+            android:textSize="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/waktuPublishTodayBerita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Waktu Berita"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/interlight"
+            android:textSize="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/contentTodayBerita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@tools:sample/lorem/random"
+            android:fontFamily="@font/interlight"
+            android:textSize="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:ellipsize="end"
+            android:maxLines="3"/>
+    </LinearLayout>
+</LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

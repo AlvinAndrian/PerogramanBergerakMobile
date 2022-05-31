@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
     private static final int JOB_ID = 0;
     private JobScheduler mScheduler;
     private Switch mDeviceIdleSwitch;
-    private Switch mDeviceChargingSwitch;
     private SeekBar mSeekBar;
 
     @Override
@@ -25,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mDeviceIdleSwitch = findViewById(R.id.idleSwitch);
-        mDeviceChargingSwitch = findViewById(R.id.chargingSwitch);
         mSeekBar = findViewById(R.id.seekBar);
         final TextView seekBarProgress = findViewById(R.id.seekBarProgress);
 
@@ -48,40 +46,21 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void scheduleJob(View view) {
-        RadioGroup networkOptions = findViewById(R.id.networkOptions);
-        int selectedNetworkID = networkOptions.getCheckedRadioButtonId();
-        int selectedNetworkOption = JobInfo.NETWORK_TYPE_NONE;
         int seekBarInteger = mSeekBar.getProgress();
         boolean seekBarSet = seekBarInteger > 0;
-
-        switch(selectedNetworkID){
-            case R.id.noNetwork:
-                selectedNetworkOption = JobInfo.NETWORK_TYPE_NONE;
-                break;
-            case R.id.anyNetwork:
-                selectedNetworkOption = JobInfo.NETWORK_TYPE_ANY;
-                break;
-            case R.id.wifiNetwork:
-                selectedNetworkOption = JobInfo.NETWORK_TYPE_UNMETERED;
-                break;
-        }
 
         mScheduler = (JobScheduler) getSystemService(JOB_SCHEDULER_SERVICE);
 
         ComponentName serviceName = new ComponentName(getPackageName(),
                 NotificationJobService.class.getName());
         JobInfo.Builder builder = new JobInfo.Builder(JOB_ID, serviceName)
-                .setRequiredNetworkType(selectedNetworkOption)
-                .setRequiresDeviceIdle(mDeviceIdleSwitch.isChecked())
-                .setRequiresCharging(mDeviceChargingSwitch.isChecked());
+                .setRequiresDeviceIdle(mDeviceIdleSwitch.isChecked());
 
         if (seekBarSet) {
             builder.setOverrideDeadline(seekBarInteger * 1000);
         }
 
-        boolean constraintSet = (selectedNetworkOption != JobInfo.NETWORK_TYPE_NONE)
-                || mDeviceChargingSwitch.isChecked() || mDeviceIdleSwitch.isChecked()
-                || seekBarSet;
+        boolean constraintSet = mDeviceIdleSwitch.isChecked() || seekBarSet;
 
         if(constraintSet) {
             //Schedule the job and notify the user
