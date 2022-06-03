@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.crudapi">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CRUDAPI">
+        <activity
+            android:name=".RegisterUnsuccessful.RegisterUnsuccessfulActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterSuccessful.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DelayedResponse.DelayedResponseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginUnsuccessful.LoginUnsuccessfulActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginSuccessful.LoginSuccessfulActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginSuccessful.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SingleResourceNotFound.SingleResourceNotFound"
+            android:exported="false" />
+        <activity
+            android:name=".SingleUsersNotFound.SingleUsersNFActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Delete.DeleteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Patch.UpdatePatchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Put.UpdatePutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Post.CreateInsertActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SingleUsersResource.SingleUsersResourceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListUsersResource.ListUserResourceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SingleUsers.SingleUsersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListUsers.ListUsersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
