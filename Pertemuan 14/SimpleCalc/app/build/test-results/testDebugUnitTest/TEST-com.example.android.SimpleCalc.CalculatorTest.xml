@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.android.SimpleCalc.CalculatorTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2022-06-04T00:11:02" hostname="LAPTOP-0MPCGVQS" time="0.008">
+  <properties/>
+  <testcase name="addTwoNumbers" classname="com.example.android.SimpleCalc.CalculatorTest" time="0.004"/>
+  <testcase name="subTwoNumbers" classname="com.example.android.SimpleCalc.CalculatorTest" time="0.0"/>
+  <testcase name="addTwoNumbersNegative" classname="com.example.android.SimpleCalc.CalculatorTest" time="0.0"/>
+  <testcase name="mulTwoNumbers" classname="com.example.android.SimpleCalc.CalculatorTest" time="0.0"/>
+  <testcase name="subWorksWithNegativeResult" classname="com.example.android.SimpleCalc.CalculatorTest" time="0.001"/>
+  <testcase name="divTwoNumbers" classname="com.example.android.SimpleCalc.CalculatorTest" time="0.0"/>
+  <testcase name="addTwoNumbersFloats" classname="com.example.android.SimpleCalc.CalculatorTest" time="0.002"/>
+  <testcase name="divTwoNumbersZero" classname="com.example.android.SimpleCalc.CalculatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

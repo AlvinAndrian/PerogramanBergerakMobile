@@ -1,0 +1,96 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml:17:1-34:12
+INJECTED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml:17:1-34:12
+INJECTED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml:17:1-34:12
+INJECTED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml:17:1-34:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\LENOVO\.gradle\caches\transforms-3\02d950f5cd7419d1505d038798cad74f\transformed\appcompat-v7-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\LENOVO\.gradle\caches\transforms-3\c476ede58fdb80fdc248657f02b62afd\transformed\support-fragment-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\LENOVO\.gradle\caches\transforms-3\b9a06c3fa58f69e23e1ad56a5bf08dad\transformed\animated-vector-drawable-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\LENOVO\.gradle\caches\transforms-3\4b20e40f8571a7d298d4b33182be3410\transformed\support-core-ui-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\LENOVO\.gradle\caches\transforms-3\34ff43204bfa2375d7b0cffe26eecb7d\transformed\support-core-utils-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\LENOVO\.gradle\caches\transforms-3\bb023440ae2a86f7dedc8240e2184417\transformed\support-vector-drawable-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\LENOVO\.gradle\caches\transforms-3\034487bde9114bec85504a0123abcc43\transformed\support-compat-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\LENOVO\.gradle\caches\transforms-3\058bc16657f93e1f27d9ca5fb490cc9a\transformed\livedata-core-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\LENOVO\.gradle\caches\transforms-3\1b2f776cb324e8a3dc6d9c6d906313ea\transformed\viewmodel-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\LENOVO\.gradle\caches\transforms-3\70d5955792534f4c8f0a3b555dbfb797\transformed\runtime-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\LENOVO\.gradle\caches\transforms-3\b1e95d25e692a475946423855f6e75cc\transformed\runtime-1.1.0\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml:17:1-34:12
+INJECTED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml:17:1-34:12
+INJECTED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml:17:1-34:12
+	package
+		ADDED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml:18:5-45
+		INJECTED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml
+		INJECTED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml
+		ADDED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml:17:1-34:12
+		INJECTED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml
+		ADDED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml:17:1-34:12
+		INJECTED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml:17:11-69
+application
+ADDED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml:20:5-32:19
+	android:supportsRtl
+		ADDED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml:24:9-35
+	android:label
+		ADDED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml:23:9-41
+	android:icon
+		ADDED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml:22:9-43
+	android:allowBackup
+		ADDED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml:21:9-35
+	android:theme
+		ADDED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml:25:9-40
+activity#com.example.android.SimpleCalc.MainActivity
+ADDED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml:26:9-31:20
+	android:name
+		ADDED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml:26:19-77
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml:27:13-30:29
+action#android.intent.action.MAIN
+ADDED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml:29:27-74
+uses-sdk
+INJECTED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml
+INJECTED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\LENOVO\.gradle\caches\transforms-3\02d950f5cd7419d1505d038798cad74f\transformed\appcompat-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\LENOVO\.gradle\caches\transforms-3\02d950f5cd7419d1505d038798cad74f\transformed\appcompat-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\LENOVO\.gradle\caches\transforms-3\c476ede58fdb80fdc248657f02b62afd\transformed\support-fragment-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\LENOVO\.gradle\caches\transforms-3\c476ede58fdb80fdc248657f02b62afd\transformed\support-fragment-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\LENOVO\.gradle\caches\transforms-3\b9a06c3fa58f69e23e1ad56a5bf08dad\transformed\animated-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\LENOVO\.gradle\caches\transforms-3\b9a06c3fa58f69e23e1ad56a5bf08dad\transformed\animated-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\LENOVO\.gradle\caches\transforms-3\4b20e40f8571a7d298d4b33182be3410\transformed\support-core-ui-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\LENOVO\.gradle\caches\transforms-3\4b20e40f8571a7d298d4b33182be3410\transformed\support-core-ui-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\LENOVO\.gradle\caches\transforms-3\34ff43204bfa2375d7b0cffe26eecb7d\transformed\support-core-utils-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\LENOVO\.gradle\caches\transforms-3\34ff43204bfa2375d7b0cffe26eecb7d\transformed\support-core-utils-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\LENOVO\.gradle\caches\transforms-3\bb023440ae2a86f7dedc8240e2184417\transformed\support-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\LENOVO\.gradle\caches\transforms-3\bb023440ae2a86f7dedc8240e2184417\transformed\support-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\LENOVO\.gradle\caches\transforms-3\034487bde9114bec85504a0123abcc43\transformed\support-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\LENOVO\.gradle\caches\transforms-3\034487bde9114bec85504a0123abcc43\transformed\support-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\LENOVO\.gradle\caches\transforms-3\058bc16657f93e1f27d9ca5fb490cc9a\transformed\livedata-core-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\LENOVO\.gradle\caches\transforms-3\058bc16657f93e1f27d9ca5fb490cc9a\transformed\livedata-core-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\LENOVO\.gradle\caches\transforms-3\1b2f776cb324e8a3dc6d9c6d906313ea\transformed\viewmodel-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\LENOVO\.gradle\caches\transforms-3\1b2f776cb324e8a3dc6d9c6d906313ea\transformed\viewmodel-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\LENOVO\.gradle\caches\transforms-3\70d5955792534f4c8f0a3b555dbfb797\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\LENOVO\.gradle\caches\transforms-3\70d5955792534f4c8f0a3b555dbfb797\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\LENOVO\.gradle\caches\transforms-3\b1e95d25e692a475946423855f6e75cc\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\LENOVO\.gradle\caches\transforms-3\b1e95d25e692a475946423855f6e75cc\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
+INJECTED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml
+INJECTED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml
+		ADDED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml
+		INJECTED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml
+		ADDED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml
+		INJECTED from D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\AndroidManifest.xml

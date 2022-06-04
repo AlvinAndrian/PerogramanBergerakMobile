@@ -1,0 +1,11 @@
+com.example.android.SimpleCalc.app-appcompat-v7-27.1.1-0 C:\Users\LENOVO\.gradle\caches\transforms-3\02d950f5cd7419d1505d038798cad74f\transformed\appcompat-v7-27.1.1\res
+com.example.android.SimpleCalc.app-support-compat-27.1.1-1 C:\Users\LENOVO\.gradle\caches\transforms-3\034487bde9114bec85504a0123abcc43\transformed\support-compat-27.1.1\res
+com.example.android.SimpleCalc.app-support-core-ui-27.1.1-2 C:\Users\LENOVO\.gradle\caches\transforms-3\4b20e40f8571a7d298d4b33182be3410\transformed\support-core-ui-27.1.1\res
+com.example.android.SimpleCalc.app-pngs-3 D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\build\generated\res\pngs\debug
+com.example.android.SimpleCalc.app-resValues-4 D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\build\generated\res\resValues\debug
+com.example.android.SimpleCalc.app-rs-5 D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\build\generated\res\rs\debug
+com.example.android.SimpleCalc.app-mergeDebugResources-6 D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.example.android.SimpleCalc.app-mergeDebugResources-7 D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.example.android.SimpleCalc.app-merged_res-8 D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\build\intermediates\merged_res\debug
+com.example.android.SimpleCalc.app-debug-9 D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\debug\res
+com.example.android.SimpleCalc.app-main-10 D:\1. PENTING\GitHub\android-fundamentals-starter-apps-v2\SimpleCalc\app\src\main\res
