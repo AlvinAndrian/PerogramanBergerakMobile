@@ -1,4 +1,4 @@
-ScorekeeperEspresso - Solution Code
+ScorekeeperEspresso
 ===================================
 
 The Scorekeeper app keeps score for any game involving two teams.
